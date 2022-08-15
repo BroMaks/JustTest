@@ -250,6 +250,7 @@ hr {
 @media (max-width: 1400px) {
     .choice-d {
         display: block;
+        margin-right: 5px;
     }
 
     .item {
