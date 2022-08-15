@@ -239,7 +239,7 @@ h1 {
 @media (max-width: 1350px) {
     .text-about {
         margin-top: -385px;
-        width: 55%;
+        width: 64%;
     }
 
     .part-25 {
@@ -249,11 +249,11 @@ h1 {
 
 @media (max-width: 1070px) {
     .text-about {
-        margin-top: -220px;
+        margin-top: -300px;
     }
 
     .text-about p {
-        font-size: 20px;
+        font-size: 27px;
     }
 
     .vacancies {
@@ -281,5 +281,16 @@ h1 {
 
     .about-vac h3 {
         font-size: 45px;
+    }
+
+    .number-about {
+        width: 270px;
+        height: 100px;
+        color: #000;
+    }
+
+    .about-vac h5 {
+        font-size: 31px;
+        margin-top: 10px;
     }
 }
