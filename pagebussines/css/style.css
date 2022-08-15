@@ -1,0 +1,133 @@
+/*HEADER*/
+@font-face {
+    font-family: Mouse;
+    src: url(../fonts/mouse.ttf);
+}
+
+@font-face {
+    font-family: Campus;
+    src: url(../fonts/campus.ttf);
+}
+
+@font-face {
+    font-family: pwptext;
+    src: url(../fonts/pwptext.ttf)
+}
+
+@font-face {
+    font-family: ukrainiantext;
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf)
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font: 16px/1.25 Lato, Arial, Tahoma, Verdana, sans-serif;
+	color: #848789;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+hr {
+    color: #000;
+    margin: 10px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.shit {
+    color: #fff;
+}
+
+.container {
+    display: block;
+    max-width: 1630px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    height: 100px;
+    background: #fff;
+    opacity: 0.9;
+    margin-top: -20px;
+}
+
+.logo {
+    width: 35%;
+}
+
+.pwptext {
+    width: 65%;
+}
+
+h1 {
+    font-family: pwptext;
+    color: #000000;
+    font-size: 32px;
+}
+
+.up-menu {
+    width: 30%;
+    text-align: center;
+}
+/*HEADER-END*/
+/*FOOTER*/
+
+.footer {
+    display: flex;
+    width: 100%;
+}
+
+.logo-footer {
+    width: 75%;
+    margin-top: 50px;
+}
+
+.contacts {
+    margin: 0 15px;
+    width: 25%;
+    color: #000;
+}
+
+.contacts h2 {
+    font-family: pwptext;
+    font-size: 25px;
+}
+
+.contacts ul li{
+    margin: 10px 0;
+    font-size: 20px;
+    color: black;
+}
+
+.contacts ul li a{
+    font-size: 20px;
+    color: black;
+}
+
+/*FOOTER-END*/
