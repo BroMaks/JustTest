@@ -131,3 +131,9 @@ h1 {
 }
 
 /*FOOTER-END*/
+
+.serwice-loading {
+    width: 100%;
+    text-align: center;
+    margin: 50px 10px;
+}
